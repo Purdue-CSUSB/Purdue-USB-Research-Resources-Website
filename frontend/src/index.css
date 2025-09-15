@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Ensure the entire page has the dark background */
+html, body, #root {
+  background: linear-gradient(135deg, #111827 0%, #064e3b 50%, #000000 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent white background from showing during scroll */
+html, body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Ensure the root element also has the background */
+#root {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
