@@ -8,7 +8,7 @@ export default function HomePage() {
                     <div className="text-center">
                         <h1 className="text-5xl md:text-7xl font-black text-white mb-8 leading-tight flex items-center justify-center">
                             <img
-                                src="/Purdue%20USB%20Research%20Resources.png"
+                                src="./Purdue%20USB%20Research%20Resources.png"
                                 alt="USB Research Resources Icon"
                                 className="w-16 h-16 md:w-20 md:h-20 object-contain mr-4"
                                 draggable={false}
