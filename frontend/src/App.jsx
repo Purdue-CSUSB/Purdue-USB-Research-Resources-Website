@@ -13,12 +13,12 @@ function AppRoutes() {
         <>
             <NavBar />
             <Routes>
-                <Route path="/" element={<HomePage />}/>
-                <Route path="/faq" element={<FAQPage />}/>
-                <Route path="/organizations-and-programs" element={<OrganizationsProgramsPage />}/>
-                <Route path="/calendar" element={<CalendarPage />}/>
-                <Route path="/presenting-your-research" element={<PresentingYourResearchPage />} />
-                <Route path="/cs-specific-research" element={<CSSpecificResearchPage />} />
+                <Route path="Purdue-USB-Research-Resources-Website/" element={<HomePage />}/>
+                <Route path="Purdue-USB-Research-Resources-Website/faq" element={<FAQPage />}/>
+                <Route path="Purdue-USB-Research-Resources-Website/organizations-and-programs" element={<OrganizationsProgramsPage />}/>
+                <Route path="Purdue-USB-Research-Resources-Website/calendar" element={<CalendarPage />}/>
+                <Route path="Purdue-USB-Research-Resources-Website/presenting-your-research" element={<PresentingYourResearchPage />} />
+                <Route path="Purdue-USB-Research-Resources-Website/cs-specific-research" element={<CSSpecificResearchPage />} />
             </Routes>
         </>
     )
